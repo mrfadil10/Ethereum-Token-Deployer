@@ -10,7 +10,7 @@ contract MyToken42 is ERC20, Ownable {
 
     // The constructor runs ONCE when you deploy the contract
     constructor(address initialOwner)
-        ERC20("My Awesome 42 Token", "TKN42") // <-- Rule check: Contains "42"
+        ERC20("Tokeni42", "TKN42") // <-- Rule check: Contains "42"
         Ownable(initialOwner) // Sets the deployer as the owner for privileges
     {
         // Mint an initial supply of 1,000,000 tokens to the person who deploys it
